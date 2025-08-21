@@ -5,7 +5,7 @@ project(xbyak_test)
 add_subdirectory(thirdparty/xbyak)
 
 add_executable(xbyak_test
-    test_main.cpp
+    test_xbyak.cpp
 )
 
 target_link_libraries(xbyak_test PRIVATE xbyak)
